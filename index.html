@@ -12,23 +12,46 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light " id="navbar-nav">
-        <a id="navbar-site-title" class="navbar-brand" href="#">Painel</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#son-navbar-collapse" aria-controls="son-navbar-collapse" aria-expanded="false"  aria-label="Exibe toda navbar" type="button">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="son-navbar-collapse">
-            <form id="navbar-form" action="form-inline">
-                <input id="navbar-field" type="text" class="form-control form-field" placeholder="Pesquisar">
-            </form>
-            <div id="navbar-profile" class="ml-auto">
-                <img src="http://www.amigodosurdo.com/images/selo.png" alt="Perfil">
-                <span>Jhonatan Carvalho</span>
-            </div>
-        </div>
 
-    </nav>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div id="sidebar-wrapper">
+            <div class="sidebar-heading"><span>Painel Administrativo</span></div>
+            <div class="list-group list-group-flush border-righ">
+                <a href="#" class="list-group-item list-group-item-action">Inicio</a>
+                <a href="#" class="list-group-item list-group-item-action">Funcionários</a>
+                <a href="#" class="list-group-item list-group-item-action">Produtos</a>
+                <a href="#" class="list-group-item list-group-item-action">Categorias</a>
+                <a href="#" class="list-group-item list-group-item-action">Fornecedores</a>
+                <a href="#" class="list-group-item list-group-item-action">Relatórios</a>
+            </div>   
+        </div>
+        <!--Conteudo-->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light" id="navbar-nav">
+                <a id="navbar-site-title" class="navbar-brand" href="#">Painel</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#son-navbar-collapse"
+                    aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda navbar"
+                    type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="son-navbar-collapse">
+                    <form id="navbar-form" action="form-inline">
+                        <input id="navbar-field" type="text" class="form-control form-field" placeholder="Pesquisar">
+                    </form>
+                    <div id="navbar-profile" class="ml-auto">
+                        <img src="http://www.amigodosurdo.com/images/selo.png" alt="Perfil">
+                        <span>Jhonatan Carvalho</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
