@@ -1,0 +1,49 @@
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;*/
+
+body{
+    background-color: #e2dddd;
+}
+
+#navbar-site-title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    padding-left: 1.2%; 
+}
+
+#navbar-form{
+    width: 450px;
+}
+
+#navbar-field{
+    widows: 100%;
+    border-radius: 9px;
+    border: 1px solid blanchedalmond;
+    box-shadow: 0px 1px 3px rgba(164,164,164,0.2);
+    color: rgb(47, 48, 49);
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+#navbar-field-placeholder{
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+#navbar-profile img{
+   border-radius: 50%;
+   border: 1px solid rgb(160, 156, 156);
+   width: 15%;
+}
+#navbar-profile span {
+  margin-left: 4%;
+  color: #262626 ;
+}
+
+#navbar-nav{
+    background-color: white;
+    box-shadow: 10px 2px 10px rgba(26, 25, 25, 0.3);
+
+    
+}
